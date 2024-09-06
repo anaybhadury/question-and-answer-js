@@ -16,25 +16,25 @@ if(marks > 100 || marks < 0){
     console.log('invalid');
 }
 else if(marks >= 80 && marks <= 100){
-    console.log('A+');
+    console.log('Your Grade Is: A+');
 }
 else if(marks >= 70 && marks <= 79){
-    console.log('A');
+    console.log('Your Grade Is: A');
 }
 else if(marks >= 60 && marks <= 69){
-    console.log('A-');
+    console.log('Your Grade Is: A-');
 }
 else if(marks >= 50 && marks <= 59){
-    console.log('B');
+    console.log('Your Grade Is: B');
 }
 else if(marks >= 40 && marks <= 49){
-    console.log('C');
+    console.log('Your Grade Is: C');
 }
 else if(marks >= 33 && marks <= 39){
-    console.log('D');
+    console.log('Your Grade Is: D');
 }
 else{
-    console.log('F');
+    console.log('Your Grade Is: F');
 }
 
 console.log("your mark is: ", marks);
