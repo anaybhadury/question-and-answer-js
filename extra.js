@@ -15,6 +15,7 @@
  * digit spelling
  * 0 - zero, 1 - one, 9 - nine, 10 - not a valid digit
  */
+
 // let digit = 11;
 
 // if(digit == 0){
@@ -113,7 +114,6 @@
 /**
  * Write a even numbers 1 to 99
  */
-
 // for(let x = 0; x <= 100; x = x + 2){
 //     console.log('', x);
 // }
@@ -121,7 +121,6 @@
 /**
  * Write a number 1 to 10 reverse number
  */
-
-for(let x = 10; x >= 1; x = x - 1){
-    console.log('', x);
-}
+// for(let x = 10; x >= 1; x = x - 1){
+//     console.log('', x);
+// }
