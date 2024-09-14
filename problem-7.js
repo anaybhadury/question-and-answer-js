@@ -36,5 +36,28 @@ const student = {
 const totalMarks = student.marks.bangla + student.marks.english + student.marks.math + student.marks.polScience + student.marks.phiscalEducation + student.marks.helthEducation;
 const averageMarks = totalMarks / 6;
 
+const marks = student.marks;
+let biggestNumbers = marks.bangla;
+
+if(marks.english > biggestNumbers){
+    biggestNumbers = marks.english;
+}
+if(marks.math > biggestNumbers){
+    biggestNumbers = marks.math;
+}
+if(marks.polScience > biggestNumbers){
+    biggestNumbers = marks.polScience;
+}
+if(marks.phiscalEducation > biggestNumbers){
+    biggestNumbers = marks.polScience;
+}
+if(marks.helthEducation > biggestNumbers){
+    biggestNumbers = marks.helthEducation;
+}
+const bigNumber = Math.max(...Object.values(student.marks));
+// console.log(bigNumber);
+const smallNumber = Math.min(...Object.values(student.marks));
+// console.log(smallNumber);
+// console.log(biggestNumbers);
 
 
