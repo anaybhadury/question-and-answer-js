@@ -60,4 +60,29 @@ const smallNumber = Math.min(...Object.values(student.marks));
 // console.log(smallNumber);
 // console.log(biggestNumbers);
 
+// মোট প্রাপ্ত নম্বরের ভিত্তিতে সে কোন গ্রেড পেয়েছে? (গ্রেড সিস্টেম: ৮০ বা তার বেশি 'A+', ৭০-৭৯ 'A', ৬০-৬৯ 'A-', ৫০-৫৯ 'B', ৪০-৪৯ 'C', ৩৩-৩৯ 'D', এবং ৩৩ এর নিচে 'F')
+let grade;
+if(totalMarks >= 80){
+    grade = "A+";
+}
+else if(totalMarks >= 70 && totalMarks <= 79){
+    grade = "A";
+}
+else if(totalMarks >= 60 && totalMarks <= 69){
+    grade = "A-";
+}
+else if(totalMarks >= 50 && totalMarks <= 59){
+    grade = "B";
+}
+else if(totalMarks >= 40 && totalMarks <= 49){
+    grade = "C";
+}
+else if(totalMarks >= 33 && totalMarks <= 39){
+    grade = "D";
+}
+else{
+    grade = "F";
+}
 
+console.log(totalMarks);
+console.log(grade);
