@@ -17,3 +17,14 @@
 নোট করুন। এইটা জাভাস্ক্রিপ্ট এর মাধ্যমে কিভাবে ফাংশন দিয়ে করতে পারি?
 */
 
+function checkDivisibility(number){
+    console.log("Your Number Is:", number);
+
+    if(number % 2 === 0){
+        return "Divisible by 2";
+    }
+
+
+    
+}
+
